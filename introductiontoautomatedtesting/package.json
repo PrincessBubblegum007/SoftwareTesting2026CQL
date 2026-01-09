@@ -2,11 +2,12 @@
   "name": "introductiontoautomatedtesting",
   "version": "1.0.0",
   "description": "",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"  },
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PrincessBubblegum007/SoftwareTesting2026CQL.git"
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/PrincessBubblegum007/SoftwareTesting2026CQL/issues"
   },
-  "homepage": "https://github.com/PrincessBubblegum007/SoftwareTesting2026CQL#readme"
+  "homepage": "https://github.com/PrincessBubblegum007/SoftwareTesting2026CQL#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
 }
